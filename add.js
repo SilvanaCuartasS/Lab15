@@ -1,7 +1,7 @@
 import { TodoManager } from './utils.js';
 
 const todoManager = new TodoManager();
-const form = document.getElementById('addForm');
+const form = document.getElementById('add-form');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
